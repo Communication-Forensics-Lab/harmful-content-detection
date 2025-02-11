@@ -1,6 +1,6 @@
 # Call to Action
 
-This subdirectory contains the data for the first subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the **binary detection of Call2Action**. 
+This subdirectory contains the data for the first subtask of the shared task on "Harmful Content Detection in Social Media" in the context of GermEval 2025: the **binary detection of Call2Action**. 
 
 ## Data annotation
 
