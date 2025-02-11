@@ -1,17 +1,24 @@
 # Violence Detection
 
-This subdirectory contains the data for the second subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the binary detection of disturbing positive statements about violence 
+This subdirectory contains the data for the second subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the **binary detection of disturbing positive statements about violence**. 
 
 ## Data annotation
 
-The data set contains the majority decision of the three annotators regarding whether a tweet represents a call to action (true) or not (false). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign such as distributing leaflets. 
+Originally, a fine-grained annotation was made into five subtypes of violence-related statements: 
+- violence propensity, i.e. the will or desire to use violence oneself
+- call to violence, i.e. inciting or calling on other people to commit a violent act. 
+- violence support, i.e. i.e. positive approval of violence/a violent event 
+- glorification, i.e. violence is presented as something particularly glorious and not just supported 
+- other forms of worrying, violence-related statements 
+
+However, since some categories were severely underrepresented, the task was converted into a binary classification. Consequently, the dataset contains the majority decision as to whether or not a tweet contains any of the forms of questionable, violence-related statements (true/false).  
 
 ## Origin and structure of the data 
 
-The data set contains a total of 9822 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
+The data set contains a total of 10.933 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
 
-"id";"description";"C2A"
-"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"false"
+"id";"description";"VIO"
+"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"nothing"
 
 To anonymise the data mentions in the data set were replaced as follows:
 - mentions of the press/press offices/news portals: [@PRE]
