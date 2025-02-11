@@ -1,6 +1,6 @@
 # Detection of attacks on the basic democratic order
 
-This subdirectory contains the data for the third subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the **fine-grained detection of various attacks on the free and democratic basic order of the Federal Republic of Germany**. 
+This subdirectory contains the data for the third subtask of the shared task on "Harmful Content Detection in Social Media" in the context of GermEval 2025: the **fine-grained detection of various attacks on the free and democratic basic order of the Federal Republic of Germany**. 
 
 ## Data annotation
 
