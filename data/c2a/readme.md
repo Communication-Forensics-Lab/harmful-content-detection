@@ -1,10 +1,10 @@
 # Call to Action
 
-This subdirectory contains the data for the first subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the binary detection of Call2Action. 
+This subdirectory contains the data for the first subtask of the shared task on "Harmful Content Detection in Social Media" in the context of Germeval 2025: the **binary detection of Call2Action**. 
 
 ## Data annotation
 
-The data set contains the majority decision of the three annotators regarding whether a tweet represents a call to action (true) or not (false). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign such as distributing leaflets. 
+The data set contains all tweets for which there was a majority decision among the four annotators as to whether or not a tweet was a call to action (true) or not (false). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign such as distributing leaflets. 
 
 ## Origin and structure of the data 
 
