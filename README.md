@@ -13,7 +13,7 @@ The data sets for each subtask and further explanations of the data can be found
 
 ## Take Part in the Shared Task
 
-To take part in this competition, please register under the following url: [https://www.codabench.org/competitions/4963/#/](https://www.codabench.org/competitions/4963/#/).
+To take part in this competition, please register at the following url: [https://www.codabench.org/competitions/4963/#/](https://www.codabench.org/competitions/4963/#/).
 
 **Important Deadlines:**
 
