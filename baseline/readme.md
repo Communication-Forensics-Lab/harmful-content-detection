@@ -4,6 +4,8 @@
 
 ## Call to Action
 
+A gradient-boosting classifier was trained as the baseline system, using sentence embeddings extracted from SentenceBert and the polarity of the tweet as features. Polarity was determined using a lexicon-based approach with the TextBlob programme. Undersampling was applied to address the high imbalance of the training dataset. 
+
 | Category      | P  |  R | F1 |
 | ------------- | -- | -- | -: |
 | true          | -- | -- | -- |
