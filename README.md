@@ -19,8 +19,8 @@ To take part in this competition, please register at the following url: [https:/
 
 | <u>**Date**</u> |  | <u>**Phase/Deadline**</u> |
 | :------------- | :------------- | :------------- |
-| <span style='color: red;'>**12 March - 10 April 2025**</span> |  | <span style='color: red;'>**Trial phase**</span> |
-| 12 April - 15 June 2025 |  | Training phase |
+| 12 March - 10 April 2025 |  | Trial phase |
+| <span style='color: red;'>**19 April - 15 June 2025**</span> |  | <span style='color: red;'>**Training phase**</span> |
 | 16 June - 27 June 2025 |  | Competition phase |
 | 11 July 2025 |  | Paper submission due |
 | 15 August 2025 |  | Camera ready due |
