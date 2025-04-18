@@ -6,7 +6,7 @@ The Jupyter notebook `dbo_baseline.ipynb` contains the code for training the mod
 
 ## Results 
 
-The system achieved the following metrics on the test data, with the Macro-F1 metric being decisive for the ranking on the leaderboard. 
+The system achieved the following metrics on the test data, with the Macro-F1 metric being decisive for the ranking on the leaderboard:
 
 | Category      |   P  |   R  |  F1  |
 | ------------- | ---- | ---- |  -:  |
