@@ -6,7 +6,7 @@ The notebook contains the code for training the model and for making predictions
 
 The system achieved the following metrics on the test data, with the Macro-F1 metric being decisive for the ranking on the leaderboard. 
 
-<center>
+<div align="center">
 
 | Category      |   P  |   R  |  F1  |
 | ------------- | ---- | ---- |  -:  |
@@ -15,7 +15,7 @@ The system achieved the following metrics on the test data, with the Macro-F1 me
 | **Mac. avg.** | 0.60 | 0.75 | 0.59 |
 | **Weight. avg.** | 0.90 | 0.73 | 0.78 |
 
-<center>
+</div>
 
 ## References
 
