@@ -10,7 +10,7 @@ The system achieved the following metrics on the test data, with the Macro-F1 me
 
 <div align="center">
 
-(| Category      |   P  |   R  |  F1  |
+| Category      |   P  |   R  |  F1  |
 | ------------- | ---- | ---- |  -:  |
 | true          | 0.31 | 0.93 | 0.47 |
 | false         | 0.99 | 0.84 | 0.91 |
