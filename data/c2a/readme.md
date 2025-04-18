@@ -4,14 +4,14 @@ This subdirectory contains the data for the first subtask of the shared task on 
 
 ## Data annotation
 
-The data set contains all tweets for which there was a majority decision among the four annotators as to whether or not a tweet was a call to action (true) or not (false). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign such as distributing leaflets. 
+The data set contains all tweets for which there was a majority decision among the four annotators as to whether or not a tweet was a call to action (TRUE) or not (FALSE). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign such as distributing leaflets. 
 
 ## Origin and structure of the data 
 
 The data set contains a total of 9822 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
 
 "id";"description";"C2A"
-"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"false"
+"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";FALSE
 
 To anonymise the data mentions in the data set were replaced as follows:
 - mentions of the press/press offices/news portals: [@PRE]
