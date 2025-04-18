@@ -10,7 +10,7 @@ The data set contains all tweets for which there was a majority decision among t
 
 The data set contains a total of 9822 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
 
-"id";"description";"C2A"
+"id";"description";"C2A"<br />
 "1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";FALSE
 
 To anonymise the data mentions in the data set were replaced as follows:
