@@ -10,10 +10,12 @@ The system achieved the following metrics on the test data, with the Macro-F1 me
 
 | Category      |   P  |   R  |  F1  |
 | ------------- | ---- | ---- |  -:  |
-| true          | 0.23 | 0.78 | 0.36 |
-| false         | 0.97 | 0.72 | 0.83 |
-| **Mac. avg.** | 0.60 | 0.75 | 0.59 |
-| **Weight. avg.** | 0.90 | 0.73 | 0.78 |
+| agitation     | 0.04 | 0.01 | 0.01 |
+| criticism     | 0.33 | 0.05 | 0.08 |
+| nothing       | 0.85 | 0.98 | 0.91 |
+| subversive    | 0.00 | 0.00 | 0.00 |
+| **Mac. avg.** | 0.30 | 0.26 | 0.25 |
+| **Weight. avg.** | 0.75 | 0.83 | 0.78 |
 
 </div>
 
