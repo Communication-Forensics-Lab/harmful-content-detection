@@ -4,6 +4,8 @@ A **gradient-boosting classifier** was trained as the baseline system, using sen
 
 The notebook `c2a_baseline.ipynb` contains the code for training the model and for making predictions on unseen data.
 
+## Results 
+
 The system achieved the following metrics on the test data, with the Macro-F1 metric being decisive for the ranking on the leaderboard. 
 
 <div align="center">
