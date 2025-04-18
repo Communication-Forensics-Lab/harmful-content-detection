@@ -14,7 +14,7 @@ The system achieved the following metrics on the test data, with the Macro-F1 me
 | ------------- | ---- | ---- |  -:  |
 | true          | 0.31 | 0.93 | 0.47 |
 | false         | 0.99 | 0.84 | 0.91 |
-| **Mac. avg.** | 0.65 | 0.88 | 0.69 |
+| **Mac. avg.** | **0.65** | **0.88** | **0.69** |
 | **Weight. avg.** | 0.94 | 0.85 | 0.88 |
 
 ## References
