@@ -2,7 +2,7 @@
 
 A **gradient-boosting classifier** was trained as the baseline system, using sentence embeddings extracted from SentenceBert and the polarity of the tweet as features. Polarity was determined using a lexicon-based approach with the TextBlob programme. Undersampling was applied to address the high imbalance of the training dataset. 
 
-The notebook contains the code for training the model and for making predictions on unseen data.
+The notebook `c2a_baseline.ipynb` contains the code for training the model and for making predictions on unseen data.
 
 The system achieved the following metrics on the test data, with the Macro-F1 metric being decisive for the ranking on the leaderboard. 
 
