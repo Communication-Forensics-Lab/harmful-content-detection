@@ -2,7 +2,7 @@
 
 The **Large Language Model Qwen2.5**, with 32 billion parameters, was used as the baseline for violence detection (Yang et al., 2024). The LLM was tasked with binary classification of tweets in a few-shot scenario. The LLM was assigned the role of a filter system specialised in detecting harmful content on social media via a system prompt. It was also provided with a definition of ‘call to definition’ that was essentially the same as the one given to the annotators. The examples required for in-context learning are the same as those available on the website and presented to the annotators. The script is intended for LLMs running locally with Ollama. 
 
-The R notebook `vio_baseline.Rmd` contains the code for training the model and for making predictions on unseen data.
+The R notebook `vio_baseline.html` contains the code for classification with the LLM and the output as a formatted HTML document. The source code can be found in the RMD file `vio_baseline.RMD`. 
 
 ## Results 
 
