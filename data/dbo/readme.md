@@ -28,3 +28,5 @@ For example, the mentions of the organisation Greenpeace and the TV channel ARD 
 
 ## Files
 
+-  `dbo_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets that have been available since the trial phase to familiarise yourself with the data set. 
+-  `dbo_train.csv`: Complete training data set comprising 7454 tweets 
