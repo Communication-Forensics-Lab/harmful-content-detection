@@ -24,4 +24,5 @@ For example, the mentions of the organisation Greenpeace and the TV channel ARD 
 
 ## Files 
 
--  `c2a_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets, which were used during the trial phase to familiarise yourself with the data set. 
+-  `c2a_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets that have been available since the trial phase to familiarise yourself with the data set. 
+-  `c2a_train.csv`: Complete training data set comprising 6840 tweets 
