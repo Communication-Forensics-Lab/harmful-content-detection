@@ -22,7 +22,8 @@ To take part in this competition, please register at the following url: [https:/
 | 12 March - 10 April 2025 |  | Trial phase |
 | <span style='color: red;'>19 April - 15 June 2025</span> |  | <span style='color: red;'>Training phase</span> |
 | 16 June - 01 July 2025 (Deadline: 01 July 18:00 CEST) |  | Competition phase |
-| **20 July 2025** |  | **Paper submission due** |
-| 15 August 2025 |  | Camera ready due |
+| 20 July 2025 |  | Paper submission due |
+| **17 August 2025** |  | **Camera ready due** |
 
 Please note: System papers must be submitted via [Easy Chair](https://easychair.org/my/conference?conf=germeval2025harmfulc).
+
