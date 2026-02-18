@@ -1,24 +1,24 @@
 # Detection of defamatory offences
 
-This subdirectory contains the data for the fourth subtask of the shared task on "Harmful Content Detection in Social Media" within GermEval 2026: **binary detection of calls to action**.
+This subdirectory contains the data for the fourth subtask of the shared task on “Harmful Content Detection in Social Media” within GermEval 2026: **the binary detection of defamatory offences** (i.e., Sections 185-187 of the German Criminal Code (StGB))
 
 ## Data annotation
 
-The dataset contains all tweets for which a majority of the three to four annotators decided whether a tweet was a call to action (TRUE) or not (FALSE). A call to action is understood to be, based on the definition of the [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/call-to-action), an order or request for a specific action or behaviour. The behaviour that a call to action encourages or incites may, but does not have to be, criminally relevant. For example, it may also be a call for a demonstration or political campaign, such as distributing leaflets.
+The dataset contains all tweets for which a majority of the three annotators decided whether or not a statement in a tweet constitutes a defamatory offence under the German Criminal Code (StGB). Specifically, it must be checked whether any of the offences under Sections 185 to 187 of the German Criminal Code (StGB) have been committed. For information on the annotation of the data set and the elements of the offence, please refer to the work of [Zufall et al. (2019)](https://aclanthology.org/N19-1135/).
 
-## Origin and structure of the data
+Origin and structure of the data
 
-The **training data** for GermEval 2025 has been expanded to 15,915 tweets. The data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format:
+The dataset consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The training data is provided as a CSV file. An entry has the following format:
 
-"id";"description";"C2A"<br />
-"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"false"
+“id”;“description”;“DEF”<br />
+“1064396393598783”;“Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.”;“false”
 
-The **test dataset** contains 2,982 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text: 
-"id";"description."
+The test data is also distributed as a CSV file, containing an ID and the tweet text:
+“id”;“description.”
 
 ## Anonymization of data
 
-To anonymise the data mentions in the data set (training and test data) were replaced as follows:
+To anonymise the data, the mentions in the data set (training and test data) were replaced as follows:
 
 * mentions of the press/press offices/news portals: [@PRE]
 * mentions of the police/police authorities: [@POL]
@@ -29,6 +29,6 @@ For example, the mentions of the organisation Greenpeace and the TV channel ARD 
 
 No further preprocessing steps were performed on the data.
 
-## Files
+Files
 
-* `c2a_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets that have been available since the trial phase to familiarise yourself with the data set.
+* `def_trial.csv`: Sample of the training data set consisting of approximately 3,00 tweets that have been available since the trial phase to familiarise yourself with the data set.
