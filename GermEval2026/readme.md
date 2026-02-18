@@ -18,7 +18,7 @@ The data sets for each subtask, and further explanations of the data, can be fou
 
 ## Take Part in the Shared Task
 
-To take part in this competition, please register [here](https://www.codabench.org/competitions/edit/14006/#/)).
+To take part in this competition, please register [here](https://www.codabench.org/competitions/edit/14006/#/).
 
 **Important Deadlines:**
 
