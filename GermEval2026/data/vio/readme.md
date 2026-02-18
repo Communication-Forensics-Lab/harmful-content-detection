@@ -4,14 +4,13 @@ This subdirectory contains the data for the third subtask of the shared task on 
 
 ## Data annotation
 
-A fine-grained annotation was made into five subtypes of violence-related statements: 
+The dataset contains all tweets for which the three to four annotators reached a majority decision regarding the type of violent statement. Specifically, a detailed annotation was made in five subtypes of violent statements and one negative category (i.e. a total of six categories):
+
 - violence propensity, i.e. the will or desire to use violence oneself
 - call to violence, i.e. inciting or calling on other people to commit a violent act. 
 - violence support, i.e., i.e. positive approval of violence/a violent event 
 - glorification, i.e. violence is presented as something particularly glorious and not just supported 
 - other forms of worrying, violence-related statements 
-
-However, the task was converted into a binary classification since some categories were severely underrepresented. Consequently, the dataset contains the majority decision as to whether or not a tweet contains any of the forms of questionable, violence-related statements (true/false).  
 
 ## Origin and structure of the data 
 
