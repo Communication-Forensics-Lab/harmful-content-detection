@@ -1,10 +1,10 @@
 # Violence Detection
 
-This subdirectory contains the data for the third subtask of the shared task on "Harmful Content Detection in Social Media" in the context of GermEval 2026: the **binary detection of disturbing positive statements about violence**. 
+This subdirectory contains the data for the third subtask of the shared task on "Harmful Content Detection in Social Media" in the context of GermEval 2026: the **the fine-grained classification of disturbing statements about violence**. 
 
 ## Data annotation
 
-Initially, a fine-grained annotation was made into five subtypes of violence-related statements: 
+A fine-grained annotation was made into five subtypes of violence-related statements: 
 - violence propensity, i.e. the will or desire to use violence oneself
 - call to violence, i.e. inciting or calling on other people to commit a violent act. 
 - violence support, i.e., i.e. positive approval of violence/a violent event 
