@@ -22,7 +22,7 @@ The **test dataset** contains 3,194 tweets. It is identical to the GermEval 2025
 
 ## Anonymization of data
 
-To anonymise the data mentions in the data set were replaced as follows:
+To anonymise the mentions in the data set were replaced as follows:
 - mentions of the press/press offices/news portals: [@PRE]
 - mentions of the police/police authorities: [@POL]
 - mentions of groups/organisations/associations: [@GRP]
