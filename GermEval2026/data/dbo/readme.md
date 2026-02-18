@@ -4,7 +4,7 @@ This subdirectory contains the data for the second subtask of the shared task on
 
 ## Data annotation
 
-The data set contains all tweets for which the four annotators could reach a majority decision regarding the form of attack. Specifically, the annotators assigned the tweets to one of the following classes: 
+The data set contains all tweets for which the three to four annotators could reach a majority decision regarding the form of attack. Specifically, the annotators assigned the tweets to one of the following classes: 
 - **subversive:** A will is expressed to forcibly remove the existing government and overthrow it (e.g., through militant action, disruption of the power grid, etc.).   
 - **agitation:** Agitative efforts are expressed. That includes the announcement of actions such as the dissemination of propaganda material of unconstitutional and terrorist organisations or the damaging of state symbols such as the flag of the Federal Republic of Germany.   
 - **criticism:** Tweets in which legitimate criticism of the government, officials, government employees, authorities or parties was expressed were assigned to this class. 
