@@ -12,10 +12,15 @@ The data set contains all tweets for which the four annotators could reach a maj
 
 ## Origin and structure of the data 
 
-The data set contains a total of 9.307 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
+The **training data** for GermEval 2025 has been expanded and now includes a total of 15,915 tweets. The data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
 
-"id";"description";"DBO"
-"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"nothing"
+"id";"description";"C2A"<br />
+"1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";FALSE
+
+The **test dataset** contains 2,982 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text:
+"id";"description"<br />
+
+## Anonymization of data
 
 To anonymise the data mentions in the data set were replaced as follows:
 - mentions of the press/press offices/news portals: [@PRE]
@@ -26,7 +31,8 @@ To anonymise the data mentions in the data set were replaced as follows:
 For example, the mentions of the organisation Greenpeace and the TV channel ARD in the following (fictitious) tweet would be replaced as follows:
 *@greenpeace_de* Euch liegt bei euren Aktionen wohl etwas an Sicherheit. Da muss man sich ja nur die letzte Doku ansehen, um das zu merken *@ARDde* => *[@GRP]* Euch liegt bei euren Aktionen wohl etwas an Sicherheit. Da muss man sich ja nur die letzte Doku ansehen, um das zu merken *[@PRE]*
 
+No further preprocessing steps were performed on the data.
+
 ## Files
 
 -  `dbo_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets that have been available since the trial phase to familiarise yourself with the data set. 
--  `dbo_train.csv`: Complete training data set comprising 7454 tweets 
