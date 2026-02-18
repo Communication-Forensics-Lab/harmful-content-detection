@@ -30,4 +30,3 @@ To take part in this competition, please register [here](https://www.codabench.o
 | 13 April - 25 May 2026 |  | Competition phase |
 | 15 July 2026 |  | Paper submission due |
 | 15 August 2026 |  | Camera ready due |
-
