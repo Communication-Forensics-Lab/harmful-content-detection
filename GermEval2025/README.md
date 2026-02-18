@@ -13,7 +13,7 @@ The data sets for each subtask and further explanations of the data can be found
 
 ## Take Part in the Shared Task
 
-To take part in this competition, please register at the following url: [https://www.codabench.org/competitions/4963/#/](https://www.codabench.org/competitions/4963/#/).
+The competition is now closed. Details and the published leaderboard are available [here](https://www.codabench.org/competitions/4963/#/).
 
 **Important Deadlines:**
 
@@ -24,5 +24,3 @@ To take part in this competition, please register at the following url: [https:/
 | 16 June - 01 July 2025 (Deadline: 01 July 18:00 CEST) |  | Competition phase |
 | 20 July 2025 |  | Paper submission due |
 | **17 August 2025** |  | **Camera ready due** |
-
-Please note: System papers must be submitted via [Easy Chair](https://easychair.org/my/conference?conf=germeval2025harmfulc).
