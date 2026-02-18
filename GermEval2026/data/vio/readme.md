@@ -6,18 +6,22 @@ This subdirectory contains the data for the third subtask of the shared task on 
 
 The dataset contains all tweets for which the three to four annotators reached a majority decision regarding the type of violent statement. Specifically, a detailed annotation was made in five subtypes of violent statements and one negative category (i.e. a total of six categories):
 
-- violence propensity, i.e. the will or desire to use violence oneself
-- call to violence, i.e. inciting or calling on other people to commit a violent act. 
-- violence support, i.e., i.e. positive approval of violence/a violent event 
-- glorification, i.e. violence is presented as something particularly glorious and not just supported 
-- other forms of worrying, violence-related statements 
+- **nothing** (no violent expression), i.e., no negative statements about violence at all
+- **propensity** (willingness to commit violence), i.e., the will or desire to use violence oneself
+- **call2Violence** (call to violence), i.e., inciting or calling on other people to commit a violent act. 
+- **support** (Endorsement of Violence), i.e., positive approval of violence/a violent event 
+- **glorification** (Glorification of Violence), i.e., violence is presented as something particularly glorious and not just supported 
+- **other**, i.e., other forms of worrying, violence-related statements 
 
 ## Origin and structure of the data 
 
-The data set contains a total of 10.933 German tweets. Most of the data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
+The **training data** for GermEval 2025 has been expanded and now includes a total of 16,256 tweets. The data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The data set is provided as a CSV file. An entry has the following format: 
 
 "id";"description";"VIO"
 "1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"nothing"
+
+The **test dataset** contains 3,194 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text:
+"id";"description"<br />
 
 ## Anonymization of data
 
@@ -35,5 +39,4 @@ No further preprocessing steps were performed on the data.
 ## Files
 
 -  `vio_trial.csv`: Sample of the training data set consisting of approximately 1,000 tweets that have been available since the trial phase to familiarise yourself with the data set. 
--  `vio_train.csv`: Complete training data set comprising 7783 tweets 
 
