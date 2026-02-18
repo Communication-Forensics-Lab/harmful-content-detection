@@ -1,29 +1,13 @@
 # Harmful Content Detection
-## A GermEval 2025 Shared Task 
 
-This repository contains the annotated Twitter dataset provided for the shared task in the context of GermEval 2025. The shared task is organised into the following three subtasks: 
+This repository contains the annotated datasets and baseline systems for the shared tasks of the **GermEval editions 2025** and **2026**. 
 
-1. The **binary detection** of so-called **call to actions**, i.e. calls for risky actions (e.g. criminal offences, demonstrations with possible escalation potential) 
-2. The **fine-grained classification** into four forms of statements and (violent) attacks against the **free and democratic basic order** of the Federal Republic of Germany
-3.  The **binary detection** of disturbing, **violence-related** statements in tweets
+In the **first edition (GermEval 2025)**, the following three subtasks were addressed:
+1.  Binary detection of call-to-action statements
+2.  Fine-grained classification of attacks on the free democratic basic order in Germany
+3.  Binary detection of violence-related statements in tweets
+   
+The **second edition (GermEval 2026)** builds on the first and provides expanded datasets for the existing subtasks. This allowed the third subtask to be redesigned as a **fine-grained classification** with the distinction of different forms of violence-related statements. In addition, a fourth subtask for the **detection of defamatory offences** against the German Criminal Code was introduced.
 
-The provided data sets' main source is posts and comments from the public German-language Twitter network of a right-wing extremist group. These tweets were collected by members of Mittweida University of Applied Sciences from December 2020 to July 2016. In October 2024, four university members with a forensic background annotated each tweet. The final data sets for each subtask contain all tweets (between 9000 and 11,000) for which a majority decision of the four annotators could be made. 
-
-The data sets for each subtask and further explanations of the data can be found in the repository's individual subdirectories. 
-
-## Take Part in the Shared Task
-
-To take part in this competition, please register at the following url: [https://www.codabench.org/competitions/4963/#/](https://www.codabench.org/competitions/4963/#/).
-
-**Important Deadlines:**
-
-| <u>**Date**</u> |  | <u>**Phase/Deadline**</u> |
-| :------------- | :------------- | :------------- |
-| 12 March - 10 April 2025 |  | Trial phase |
-| <span style='color: red;'>19 April - 15 June 2025</span> |  | <span style='color: red;'>Training phase</span> |
-| 16 June - 01 July 2025 (Deadline: 01 July 18:00 CEST) |  | Competition phase |
-| 20 July 2025 |  | Paper submission due |
-| **17 August 2025** |  | **Camera ready due** |
-
-Please note: System papers must be submitted via [Easy Chair](https://easychair.org/my/conference?conf=germeval2025harmfulc).
+The datasets for both editions, as well as further details on the subtasks and data formats, can be found in the respective subdirectories.
 
