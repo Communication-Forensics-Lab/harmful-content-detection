@@ -10,11 +10,14 @@ This repository contains the annotated Twitter dataset provided for the shared t
 
 For GermEval 2026, a sample of around **22,200 tweets** from a total corpus of approximately 800,000 tweets was annotated. The data sets for **subtasks 1–3** are based on data already annotated in the previous edition and were expanded for GermEval 2026.
 
-The annotation of the first three subtasks was carried out by members of Mittweida University of Applied Sciences. Each tweet was annotated by three to four annotators. Only tweets for which there was a majority decision by the three to four annotators were included in the final data sets. This resulted in data sets comprising approximately **16,000-17,000** tweets.
+The annotation of the first three subtasks was carried out by members of Mittweida University of Applied Sciences. Each tweet was annotated by three to four annotators. Only tweets for which there was a majority decision by the three to four annotators were included in the final data sets. This resulted in training datasets comprising approximately **15,000-16,000** tweets.
 
 The particularly challenging annotation of the fourth subtask was carried out by staff at Mittweida University of Applied Sciences and the Central Office for Information Technology in the Security Sector (ZITiS), both of whom have extensive practical experience in evaluating harmful and criminally relevant content. The annotation of the fourth subtask will be completed in mid/late February.
 
 The data sets for each subtask, and further explanations of the data, can be found in the repository’s individual subdirectories. 
+
+**In addition to the annotations required for this shared task, the data set was annotated for hate speech, toxicity, target and emotions to support
+the classification tasks** (e.g. in the sense of multi-task learning or as a feature). A data set containing the tweets of all subtasks with the additional annotations is provided in a separate subfolder.
 
 ## Take Part in the Shared Task
 
