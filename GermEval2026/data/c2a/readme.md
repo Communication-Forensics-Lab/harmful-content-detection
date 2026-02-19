@@ -8,11 +8,9 @@ The dataset contains all tweets for which a majority of the three to four annota
 
 ## Origin and structure of the data
 
-The **training data** for GermEval 2025 has been expanded to 15,915 tweets. The data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The dataset is provided as a CSV file that includes the ID, text, and call-to-action label.  
+The **training data** for GermEval 2025 has been expanded to 15,915 tweets. The data set consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The dataset is provided as a CSV file that includes the ID, text, and call-to-action label. Each entry therefore has the following format:
 
-In addition to the annotation required for the subtask, the dataset is also annotated for hate speech, toxicity, target, and emotion to support classification tasks (e.g., as additional features or for multi-task learning). Each entry therefore has the following format:
-
-"id";"description";"C2A";EMO;anger;fear;surprise;sadness;joy;disgust;envy;jealousy;other;HS;TAR;TOX<br />
+"id";"description";"C2A";<br />
 "1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"false";
 
 The **test dataset** contains 2,982 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text: 
