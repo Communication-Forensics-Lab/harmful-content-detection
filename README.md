@@ -14,5 +14,6 @@ The datasets for both editions, as well as further details on the subtasks and d
 
 ## Take Part in the Shared Task
 
-<span style='color: red;'>**The trial phase of the shared task at GermEval 2026 is currently underway.**<span style='color: red;'> To take part in this competition, please register [here](https://www.codabench.org/competitions/14006/). Further information can be found in the corresponding subdirectory.
+<span style="color: red;"><strong>The trial phase of the shared task at GermEval 2026 is currently underway.</strong></span> To take part in this competition, please register [here](https://www.codabench.org/competitions/14006/). Further information can be found in the corresponding subdirectory.
+
 
