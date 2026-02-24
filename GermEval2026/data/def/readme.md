@@ -10,7 +10,7 @@ Origin and structure of the data
 
 The dataset consists of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The training data is provided as a CSV file. An entry has the following format:
 
-“id”;“description”;“DEF”<br />
+“id”;“description”;“def”<br />
 “1064396393598783”;“Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.”;“false”
 
 The test data is also distributed as a CSV file, containing an ID and the tweet text:
