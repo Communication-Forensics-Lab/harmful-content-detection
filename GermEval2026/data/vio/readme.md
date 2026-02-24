@@ -17,7 +17,7 @@ The dataset contains all tweets for which the three to four annotators reached a
 
 The data set consists predominantly of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. A total of 10,479 tweets were annotated for violence detection, which were divided into training and test data using stratified sampling at a ratio of 85:15. The **training data** comprises 8,908 tweets. The training data is provided as a CSV file. An entry has the following format: 
 
-"id";"description";"VIO"
+"id";"description";"vio"
 "1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"nothing"
 
 The **test dataset** contains 1,571 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text:
