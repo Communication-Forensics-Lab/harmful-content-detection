@@ -14,7 +14,7 @@ The data set contains all tweets for which the three to four annotators could re
 
 The **training data** for GermEval 2025 has been expanded and now includes a total of 16,256 tweets. The data set consists predominantly of posts and comments from a right-wing extremist movement from 12/12/2014 to 07/07/2016. The training data is provided as a CSV file. An entry has the following format: 
 
-"id";"description";"DBO"<br />
+"id";"description";"dbo"<br />
 "1064396393598783";"Oliver, ich guck doch schon mindestens einmal die Woche RTL2-NEWS.";"nothing"
 
 The **test dataset** contains 3,194 tweets. It is identical to the GermEval 2025 test set to allow direct comparability between editions. The test data is also distributed as a CSV file, containing an ID and the tweet text:
