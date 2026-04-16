@@ -26,8 +26,8 @@ These characteristics may include religion, ethnicity, nationality, race, skin c
 
 | Value | Description |
 |---|---|
-| `true` | The tweet contains hate speech. |
-| `false` | The tweet does not contain hate speech. |
+| `TRUE` | The tweet contains hate speech. |
+| `FALSE` | The tweet does not contain hate speech. |
 | `don't know` | The majority of annotators stated that they were unable to determine whether the text constituted hate speech or not (e.g., due to a lack of contextual information). |
 
 > **Note:** The presence of offensive or vulgar language alone is not sufficient for a tweet to be labeled as hate speech. The content must target a person or group based on protected or identity-related characteristics.
