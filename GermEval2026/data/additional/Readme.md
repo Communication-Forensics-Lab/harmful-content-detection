@@ -4,9 +4,9 @@ In addition to the annotations required for this shared task, the dataset was an
 
 ## Data
 
-The dataset contains the additional annotations for the tweets in the training and test data for all subtasks. It is provided as a CSV file consisting of an ID and the gold standard for the additional annotations, which reflects the majority decision of three to four annotators. If an absolute majority could not be reached, the label is `"pari"`.
+The dataset contains the additional annotations for the tweets in the training and test data for all subtasks. It is provided as a CSV file containing an ID and the gold standard for the additional annotations, reflecting the majority decision of three to four annotators. If an absolute majority could not be reached, the label is `"pari"`.
 
-The ID can be used to link to the training or test data for each subtask and to add the additional annotations to the tweets. An entry in this dataset has the following format:
+The ID can be used to link to the training or test data for each subtask and to add additional annotations to the tweets. An entry in this dataset has the following format:
 
 ```
 "id";"HS";"TAR";"TOX";"EMO";"ANGER";"FEAR";"SURPRISE";"SADNESS";"JOY";"DISGUST";"ENVY";"JEALOUSY";"OTHER"
@@ -52,7 +52,7 @@ Each tweet was annotated to indicate its addressee or intended audience.
 
 ### Toxicity Detection (TOX)
 
-Toxic tweets are those that "poison" a conversation, for example because they are rude, disrespectful, or inappropriate.
+Toxic tweets are those that "poison" a conversation, for example, because they are rude, disrespectful, or inappropriate.
 
 Toxicity was rated on a scale from **1** (not toxic) to **5** (very toxic). A tweet is considered more toxic the more it provokes aggressive reactions or causes participants to leave the conversation.
 
