@@ -1,12 +1,18 @@
 # Harmful Content Detection
-## A GermEval 2026 Shared Task 
+## A GermEval 2026 Shared Task
 
-This repository contains the annotated Twitter dataset provided for the shared task in the context of GermEval 2026. The shared task is organised into the following three subtasks:
+[![Register](https://img.shields.io/badge/Register-CodaBench-blue)](https://www.codabench.org/competitions/edit/14006/#/)
+![Phase](https://img.shields.io/badge/Current%20Phase-Training-green)
+![Tweets](https://img.shields.io/badge/Annotated%20Tweets-22%2C200-orange)
 
-1. The **binary detection** of so-called **calls to actions**, i.e., calls for risky actions (e.g., criminal offences, demonstrations with possible escalation potential)
-2. The **fine-grained classification** into four forms of statements and (violent) attacks against the **liberal democratic basic order** of the Federal Republic of Germany
-3. The **fine-grained classification** into six different categories of **violence-related** statements in tweets
-4. The **binary detection** of **defamatory offences** (i.e., Sections 185-187 of the German Criminal Code (StGB))
+This repository contains the annotated Twitter dataset provided for the shared task in the context of GermEval 2026. The shared task is organised into the following subtasks:
+
+| | Subtask | Description |
+|---|---|---|
+| 1 | 📢 **Calls to Action** | Binary detection of calls for risky actions (e.g., criminal offences, demonstrations with possible escalation potential) |
+| 2 | ⚖️ **Liberal Democratic Basic Order** | Fine-grained classification into four forms of statements and (violent) attacks against the liberal democratic basic order of the Federal Republic of Germany |
+| 3 | 🔥 **Violence-Related Statements** | Fine-grained classification into six different categories of violence-related statements in tweets |
+| 4 | 🚨 **Defamatory Offences** | Binary detection of defamatory offences (i.e., Sections 185-187 of the German Criminal Code (StGB)) |
 
 For GermEval 2026, a sample of around **22,200 tweets** from a total corpus of approximately 800,000 tweets was annotated. The data sets for **subtasks 1–3** are based on data already annotated in the previous edition and were expanded for GermEval 2026.
 
@@ -14,7 +20,7 @@ The annotation of the first three subtasks was carried out by members of Mittwei
 
 The particularly challenging annotation of the fourth sub-task was carried out by the Shared Task organizers, other staff members from Mittweida University of Applied Sciences, and the central authority for information technology in the security sector (ZITiS), all of whom have extensive practical experience in assessing harmful and criminally relevant content.
 
-The data sets for each subtask, and further explanations of the data, can be found in the repository’s individual subdirectories. 
+The data sets for each subtask, and further explanations of the data, can be found in the repository's individual subdirectories.
 
 **In addition to the annotations required for this shared task, the data set was annotated for hate speech, toxicity, target and emotions to support
 the classification tasks** (e.g. in the sense of multi-task learning or as a feature). A data set containing the tweets of all subtasks with the additional annotations is provided in a separate subfolder.
@@ -25,10 +31,10 @@ To take part in this competition, please register [here](https://www.codabench.o
 
 **Important Deadlines:**
 
-| <u>**Date**</u> |  | <u>**Phase/Deadline**</u> |
-| :------------- | :------------- | :------------- |
-| 21 February - 25 March 2026 |  | Trial phase |
-| 18 April - 23 May 2026 |  | Training phase |
-| 24 May - 21 June 2026 |  | Competition phase |
-| 15 July 2026 |  | Paper submission due |
-| 15 August 2026 |  | Camera ready due |
+| **Date** | | **Phase/Deadline** |
+|---|---|---|
+| ✅ 21 February - 25 March 2026 | | Trial phase |
+| 👉 **18 April - 23 May 2026** | | **Training phase ← current** |
+| 24 May - 21 June 2026 | | Competition phase |
+| 15 July 2026 | | Paper submission due |
+| 15 August 2026 | | Camera ready due |
