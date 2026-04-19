@@ -2,7 +2,7 @@
 ## A GermEval 2026 Shared Task
 
 [![Register](https://img.shields.io/badge/Register-CodaBench-blue)](https://www.codabench.org/competitions/edit/14006/#/)
-[![Phase](https://img.shields.io/badge/Current%20Phase-Training-green)](#-take-part-in-the-shared-task)
+[![Phase](https://img.shields.io/badge/Current%20Phase-Training-green)](#take-part-in-the-shared-task)
 [![Tweets](https://img.shields.io/badge/Annotated%20Tweets-22%2C200-orange)](#overview-of-the-data)
 
 This repository contains the annotated Twitter dataset provided for the shared task in the context of GermEval 2026. The shared task is organised into the following subtasks:
