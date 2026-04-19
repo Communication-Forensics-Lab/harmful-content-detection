@@ -14,7 +14,7 @@ This repository contains the annotated Twitter dataset provided for the shared t
 | 3 | 🔥 **Violence-Related Statements** | Fine-grained classification into six different categories of violence-related statements in tweets |
 | 4 | 🚨 **Defamatory Offences** | Binary detection of defamatory offences (i.e., Sections 185-187 of the German Criminal Code (StGB)) |
 
-## Overview of the data
+## Overview of the Data
 
 For GermEval 2026, a sample of around **22,200 tweets** from a total corpus of approximately 800,000 tweets was annotated. The data sets for **subtasks 1–3** are based on data already annotated in the previous edition and were expanded for GermEval 2026.
 
