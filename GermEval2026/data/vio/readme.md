@@ -56,4 +56,4 @@ No further preprocessing steps were performed on the data.
 | File | Description |
 |---|---|
 | `vio_trial.csv` | Sample of the training dataset (~1,000 tweets), available since the trial phase to familiarise yourself with the data. |
-| `vio_train_26.csv` | Complete training dataset comprising 15,441 tweets. |
+| `vio_train_26.csv` | Complete training dataset comprising 16,431 tweets. |
