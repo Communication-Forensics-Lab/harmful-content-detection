@@ -3,7 +3,7 @@
 
 [![Register](https://img.shields.io/badge/Register-CodaBench-blue)](https://www.codabench.org/competitions/edit/14006/#/)
 [![Phase](https://img.shields.io/badge/Current%20Phase-Training-green)](#-take-part-in-the-shared-task)
-[![Tweets](https://img.shields.io/badge/Annotated%20Tweets-22%2C200-orange)](#origin-of-the-data)
+[![Tweets](https://img.shields.io/badge/Annotated%20Tweets-22%2C200-orange)](#overview-of-the-data)
 
 This repository contains the annotated Twitter dataset provided for the shared task in the context of GermEval 2026. The shared task is organised into the following subtasks:
 
@@ -14,7 +14,7 @@ This repository contains the annotated Twitter dataset provided for the shared t
 | 3 | 🔥 **Violence-Related Statements** | Fine-grained classification into six different categories of violence-related statements in tweets |
 | 4 | 🚨 **Defamatory Offences** | Binary detection of defamatory offences (i.e., Sections 185-187 of the German Criminal Code (StGB)) |
 
-## Origin of the Data
+## Overview of the data
 
 For GermEval 2026, a sample of around **22,200 tweets** from a total corpus of approximately 800,000 tweets was annotated. The data sets for **subtasks 1–3** are based on data already annotated in the previous edition and were expanded for GermEval 2026.
 
